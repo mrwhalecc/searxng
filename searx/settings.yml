@@ -299,31 +299,14 @@ categories_as_tabs:
   social media:
 
 engines:
-  # 添加中文搜索引擎
-  - name: baidu
-    engine: baidu
-    shortcut: bd
-    disabled: false
-    
-  - name: sogou
-    engine: sogou
-    shortcut: sg
-    disabled: false
-    
   - name: 360search
     engine: 360search
     shortcut: 360so
     disabled: false
-    
-  # 确保这些常用引擎启用
-  - name: google
-    engine: google
-    shortcut: go
-    disabled: false
-    
-  - name: bing
-    engine: bing
-    shortcut: bi
+
+  - name: 360search
+    engine: 360search
+    shortcut: 360so
     disabled: false
 
   - name: 9gag
@@ -514,21 +497,21 @@ engines:
     categories: [general]
     engine: baidu
     shortcut: bd
-    disabled: true
+    disabled: false
 
   - name: baidu images
     baidu_category: images
     categories: [images]
     engine: baidu
     shortcut: bdi
-    disabled: true
+    disabled: false
 
   - name: baidu kaifa
     baidu_category: it
     categories: [it]
     engine: baidu
     shortcut: bdk
-    disabled: true
+    disabled: false
 
   - name: wikipedia
     engine: wikipedia
@@ -545,7 +528,7 @@ engines:
   - name: bing
     engine: bing
     shortcut: bi
-    disabled: true
+    disabled: false
 
   - name: bing images
     engine: bing_images
@@ -1083,14 +1066,14 @@ engines:
     categories: [files, apps]
     shortcut: gpa
     play_categ: apps
-    disabled: true
+    disabled: false
 
   - name: google play movies
     engine: google_play
     categories: videos
     shortcut: gpm
     play_categ: movies
-    disabled: true
+    disabled: false
 
   - name: grokipedia
     engine: grokipedia
@@ -1916,22 +1899,22 @@ engines:
   - name: sogou
     engine: sogou
     shortcut: sogou
-    disabled: true
+    disabled: false
 
   - name: sogou images
     engine: sogou_images
     shortcut: sogoui
-    disabled: true
+    disabled: false
 
   - name: sogou videos
     engine: sogou_videos
     shortcut: sogouv
-    disabled: true
+    disabled: false
 
   - name: sogou wechat
     engine: sogou_wechat
     shortcut: sogouw
-    disabled: true
+    disabled: false
 
   - name: soundcloud
     engine: soundcloud
@@ -2171,11 +2154,11 @@ engines:
   - name: yahoo
     engine: yahoo
     shortcut: yh
-    disabled: true
+    disabled: false
 
   - name: yahoo news
     engine: yahoo_news
-    shortcut: yhn
+    shortcut: false
 
   - name: youtube
     shortcut: yt
