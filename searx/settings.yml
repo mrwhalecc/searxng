@@ -325,17 +325,6 @@ engines:
     engine: bing
     shortcut: bi
     disabled: false
-    
-  - name: 360search
-    engine: 360search
-    shortcut: 360so
-    timeout: 10.0
-    disabled: false
-
-  - name: 360search videos
-    engine: 360search_videos
-    shortcut: 360sov
-    disabled: false
 
   - name: 9gag
     engine: 9gag
