@@ -304,11 +304,6 @@ engines:
     shortcut: 360so
     disabled: false
 
-  - name: 360search
-    engine: 360search
-    shortcut: 360so
-    disabled: false
-
   - name: 9gag
     engine: 9gag
     shortcut: 9g
